@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Route path="/login" exact component={Login} />
         <Route path="/dashboard" exact component={Dashboard} />
+        <Route path="/" exact component={Login} />
       </BrowserRouter>
       </header>
     </div>
